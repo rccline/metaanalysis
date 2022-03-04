@@ -1,0 +1,19 @@
+---
+title: "Meta-Analysis"
+author: "Robert C Cline Sr"
+date: "3/4/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)  
+
+
+```
+
+### Source external R scripts
+```{r, include=FALSE}
+source("./scripts/libraryies.R", local = knitr::knit_global())
+# or sys.source("your-script.R", envir = knitr::knit_global())
+```
+

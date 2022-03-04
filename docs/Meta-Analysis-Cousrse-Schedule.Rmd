@@ -1,0 +1,85 @@
+---
+title: "Meta-Analysis Course Schedule"
+author: "Robert C Cline Sr"
+date: "3/1/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE) 
+
+library(readr)
+library(here)
+library(tidyverse)
+library(metafor)
+library(metaviz)
+library(psychmeta)
+library(easystats)
+
+
+```
+
+```{r}
+options(repos = c(easystats = "https://easystats.r-universe.dev", getOption("repos")))
+        
+        
+install.packages("easystats")#, "psychmeta", "metafor", "metaviz")
+easystats::install_latest() 
+
+install.packages("psychmeta", "metafor", "metaviz")
+```
+
+
+### SESSION CONTENT  
+
+**Monday** – Classes from 2-7 PM Berlin time  
+Part 1  
+
+* Lecture: Introduction to systematic reviews and meta-analysis  
+* Lecture: Effect sizes and confidence intervals  
+* Exercise 1  
+
+Part 2  
+
+* Lecture: Sampling error and meta-analysis models  
+* Lecture: Fitting meta-analysis models in R with metafor and psychmeta  
+* Exercise 2        
+
+**Tuesday** – Classes from 2-7 PM Berlin time  
+Part 1  
+
+* Lecture: Artefacts beyond sampling error: Measurement error and selection bias  
+* Lecture: Moderator analysis and meta-regression  
+* Exercise 3  
+ 
+Part 2  
+
+* Lecture: Heterogeneity in effects  
+* Lecture: Presenting and interpreting meta-analysis results  
+* Exercise 4   
+
+**Wednesday** – Classes from 2-7 PM Berlin time  
+Part 1  
+
+* Lecture: Model diagnostics – assumptions, residuals, influential studies  
+* Exercise 5  
+
+Part 2   
+
+* Lecture: Publication bias  
+* Exercise 6  
+  
+**Thursday** – Classes from 2-7 PM Berlin time  
+
+Part 1  
+
+* Lecture: The systematic review process  
+* Lecture: Reporting and presenting meta-analyses transparently  
+* Exercise 7  
+
+Part 2
+* Refresher, Q&A, Meta-analysis reading practice
+
+ 
+
+ 
